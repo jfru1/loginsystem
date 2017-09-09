@@ -1,1 +1,1 @@
-# loginsystem
+This is a pretty simple thing to get set up. To make it run, open up MySql and create a database called "sequelize_passport" and make sure it can access the DB. Then spin up the server with 'node server.js' and make sure it returns with a confirmation that the site is live in the console, then you should be able to localhost:9001 and see what's up. I made some simple handlebars files to display stuff. 
