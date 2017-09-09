@@ -18,7 +18,7 @@
     app.engine('hbs', exphbs({extname: '.hbs'}));
     app.set('view engine', '.hbs');
     app.get('/', function(req, res){
-	  res.send('Welcome to Passport with Sequelize');
+	  res.send('This is a login system for use with Passport+Sequelize!');
 	});
 
     //load passport
